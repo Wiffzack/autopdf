@@ -2,4 +2,8 @@
 A small auto pdf Downloader in Python
 Usage:
 
-python autopdf.py
+python pdfdwn.py "whatever"
+
+To do:
+Multithreading 
+Content Analyse
