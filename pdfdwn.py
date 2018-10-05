@@ -43,7 +43,7 @@ def searchit(string):
 	#time.sleep(999)
 	if synonyms:
 		for x in synonyms:
-			searchstr = " ".join((string, googlestring))
+			searchstr = " ".join((x, googlestring))
 			cache = Google.search(query=searchstr, num=100, start=1, country_code="")
 			#print(Bing.search('hello world', 5, 2))
 			link = (cache['url'])
